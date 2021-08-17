@@ -2,8 +2,9 @@ package Project01.Adapter;
 
 public class AdapterTest {
     public static void main(String[] args) {
-        Print printRapperRespect = new PrintRapperRespect("Andy");
-        printRapperRespect.printNoRespect();
-        printRapperRespect.printRespect();
+        Print printCatSound = new PrintCatSound();
+        Print printDogSound = new PrintDogSound();
+        printCatSound.printSound();
+        printDogSound.printSound();
     }
 }
